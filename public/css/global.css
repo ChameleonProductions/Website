@@ -1,0 +1,178 @@
+*{
+  background-color: #202020;
+}
+.navbar{
+  position: absolute;
+  background-color: #990000;
+  width: 98%;
+  left: 1%;
+  height: 10%;
+  min-height: 75px;
+  border-radius: 15px;
+  top: 1%;
+}
+#logo{
+  position: fixed;
+  left: 2%;
+  height: 10%;
+   min-height: 75px;
+  width: 20%;
+  background-color: #990000;
+}
+
+#home_button{
+  position: fixed;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 0;
+  border-style: none;
+  height: 10%;
+  width: 11%;
+  top: 1%;
+  right: 55.07%;
+  text-align: center;
+  background-color: #990000;
+  font-weight: 900;
+  font-size:  1.25vw;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 100;
+}
+
+#home_button:hover{
+  background-color: #990000;
+  color: black;
+  transition: 0.3s
+}
+
+#friends_button{
+  position: fixed;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 0;
+  border-style: none;
+  height: 10%;
+  width: 11%;
+  top: 1%;
+  right: 44.17%;
+  text-align: center;
+  background-color: #990000;
+  font-weight: 900;
+  font-size:  1.25vw;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 100;
+
+}
+
+#friends_button:hover{
+  background-color: #990000;
+  color: black;
+  transition: 0.3s
+}
+
+#create_button{
+  position: fixed;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 0;
+  border-style: none;
+  height: 10%;
+  width: 11%;
+  top: 1%;
+  right: 33.27%;
+  text-align: center;
+  background-color: #990000;
+  font-weight: 900;
+  font-size:  1.25vw;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 100;
+
+}
+
+#create_button:hover{
+  background-color: #990000;
+  color: black;
+  transition: 0.3s
+}
+
+#games_button{
+  position: fixed;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 0;
+  border-style: none;
+  height: 10%;
+  width: 11%;
+  top: 1%;
+  right: 22.37%;
+  text-align: center;
+  background-color: #990000;
+  font-weight: 900;
+  font-size:  1.25vw;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 100;
+
+}
+
+#games_button:hover{
+  background-color: #990000;
+  color: black;
+  transition: 0.3s
+}
+
+#profile_button{
+  position: fixed;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 0;
+  border-style: none;
+  height: 10%;
+  width: 11%;
+  top: 1%;
+  right: 11.47%;
+  text-align: center;
+  background-color: #990000;
+  font-weight: 900;
+  font-size:  1.25vw;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 100;
+
+}
+
+#profile_button:hover{
+  background-color: #990000;
+  color: black;
+  transition: 0.3s
+}
+#settings_button{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 1%;
+  left: 90%;
+  font-weight: 900;
+  height: 10%;
+  font-size:  3vw;
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 100;
+  border-style: none;
+  text-decoration: none;
+  background-color: rgb(0, 0, 0, 0);
+}
+
+#settings_button:hover{
+  transform: rotate(90deg);
+  transition: 0.3s;
+}
