@@ -5,6 +5,8 @@ const port = 3000;
 
 app.use(express.static("public"));
 
+app.get("/:dir", (req, res) => {return res.sendFile(`${__dirname}/public${req.path}.html`)});
+
 const io = require("socket.io")(http);
 
 io.on("connection", socket => {
