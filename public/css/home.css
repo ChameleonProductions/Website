@@ -1,0 +1,11 @@
+.welcome{
+  position: absolute;
+  top: 14%;
+  left: 1%;
+  background-color: black;
+  border-radius: 15px;
+  color: white;
+}
+.welcome h1{
+  background-color: black;
+}
