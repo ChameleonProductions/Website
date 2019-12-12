@@ -2,10 +2,38 @@
   position: absolute;
   top: 14%;
   left: 1%;
-  background-color: black;
+  background-color: #4d0000;
   border-radius: 15px;
   color: white;
 }
 .welcome h1{
-  background-color: black;
+  background-color: #4d0000;
+}
+.recently_played{
+  position: absolute;
+  background-color: #4d0000;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  top: 30%;
+  left: 2.5%;
+  width: 95%;
+  height: 25%;
+}
+.recently_played h2{
+  background-color: #4d0000;
+}
+.Suggested{
+position: absolute;
+background-color: #4d0000;
+top: 60%;
+border-radius: 15px;
+color: white;
+left: 2.5%;
+width: 95%;
+height: 30%;
+text-align: center;
+}
+.Suggested h2{
+  background-color: #4d0000;
 }

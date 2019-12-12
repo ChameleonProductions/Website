@@ -18,6 +18,7 @@
    min-height: 75px;
   width: 20%;
   background-color: #990000;
+  cursor: pointer;
 }
 
 #home_button{
@@ -175,4 +176,24 @@
 #settings_button:hover{
   transform: rotate(90deg);
   transition: 0.3s;
+}
+#Search_bar{
+  position: absolute;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  top: 3%;
+  left: 20%;
+  height: 5%;
+  width: 15%;
+ transition: 0.5s;
+ color: #39ff14;
+ z-index: 100;
+}
+#Search_bar:hover{
+  border-color: #39ff14;
+  transition: 0.5s;
+}
+#Search_bar:focus{
+  color: white;
 }

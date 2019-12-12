@@ -9,7 +9,7 @@
   <body>
     <script src="script.js"></script>
     <div class="navbar">
-      <img id='logo' src='../images/logobright.png'>
+      <img id='logo' src='../images/logobright.png' onclick='location.href="/home"; return false;'value="login">
       
       <button onclick='location.href="/home"; return false;'
       id="home_button" type="submit" name="submit_button" value="Login">Home</button>
@@ -30,5 +30,8 @@
       id="settings_button" type="submit" name="submit_button" value=
       "Login">...</button>
     </div>
+    <form>
+			<input id="Search_bar" type="text" name="password" placeholder="Search">
+    </form>
   </body>
 </html>
